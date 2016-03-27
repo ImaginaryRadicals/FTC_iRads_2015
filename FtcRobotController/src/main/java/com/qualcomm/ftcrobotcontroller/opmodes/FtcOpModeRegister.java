@@ -62,9 +62,13 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register("K9Line", K9Line.class);
     manager.register ("PushBotAuto", PushBotAuto.class);
     manager.register ("PushBotManual", PushBotManual.class);
-
-
-
+    manager.register ("PushBotAuto_Linear1", PushBotAuto_Linear1.class);
+    manager.register ("PushBotAuto_Linear2", PushBotAuto_Linear2.class);
+    manager.register ("PushBotAuto_Linear3", PushBotAuto_Linear3.class);
+    manager.register ("Blue Close to Ramp", PushBotAuto_ConflictionFreeBlueClose.class);
+    manager.register ("Blue Far from Ramp", PushBotAuto_ConflictionFreeBlueClose.class);
+    manager.register ("Red Close to Ramp", PushBotAuto_ConflictionFreeRedClose.class);
+    manager.register ("Red Far from Ramp", PushBotAuto_ConflictionFreeRedFar.class);
     /*
      * Uncomment any of the following lines if you want to register an op mode.
      */
@@ -94,7 +98,7 @@ public class FtcOpModeRegister implements OpModeRegister {
     //manager.register ("PushBotTouchEvent", PushBotTouchEvent.class);
 
     //manager.register("PushBotDriveTouch", PushBotDriveTouch.java);
-    //manager.register("PushBotIrSeek", PushBotIrSeek.java);
-    //manager.register("PushBotSquare", PushBotSquare.java);
-  }
+  //manager.register("PushBotIrSeek", PushBotIrSeek.java);
+    manager.register("PushBotSquare", PushBotSquare.class);
+}
 }

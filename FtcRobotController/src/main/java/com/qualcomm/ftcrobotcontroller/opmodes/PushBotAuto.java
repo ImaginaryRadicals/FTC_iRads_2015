@@ -12,9 +12,11 @@ package com.qualcomm.ftcrobotcontroller.opmodes;
  * @author SSI Robotics
  * @version 2015-08-01-06-01
  */
+
 public class PushBotAuto extends PushBotTelemetry
 
 {
+
     //--------------------------------------------------------------------------
     //
     // PushBotAuto
@@ -97,8 +99,9 @@ public class PushBotAuto extends PushBotTelemetry
             //
             v_state++;
 
-            break;
-        //
+            break;//public class PushBotAuto extends PushBotTelemetry
+
+            //
         // Drive forward until the encoders exceed the specified values.
         //
         case 1:
